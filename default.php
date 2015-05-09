@@ -79,6 +79,7 @@ echo stripslashes(strip_tags(file_get_contents('content.html')));
 </td><td width=20%>
 <table border=1px width=100% height=100%><tr><td>
 <center><h2>Information Board</h2></center>
+Current version: 0.1
 <li>HTML is now disabled because some specific people abused it. </li>
 </td></tr></table>
 </td></tr>
