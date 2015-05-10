@@ -6,6 +6,16 @@
 table td, table td * {
     vertical-align: top;
 }
+.wrapword{
+white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+white-space: pre-wrap;       /* css-3 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+word-break: break-all;
+white-space: normal;
+}
 </style>
 <script type="text/javascript">
 $(function() {
@@ -71,7 +81,7 @@ border="0" alt="Free Web Counter"></a>
 </center>
 
 <hr>
-<pre>
+<pre class="wrapword" style="border: 1px solid black;">
 <?php
 echo stripslashes(strip_tags(file_get_contents('content.html')));
 ?>
