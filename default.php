@@ -25,10 +25,6 @@ white-space: normal;
 <h2>Everyonecanedit.tk</h2>
 The only website on the interweb where <b>everyone</b> can edit with no restrictions! Made by minerguy31<br />
 <a href="http://everyonecanedit.tk/edit.php">Edit</a>&nbsp;
-
-<a href="http://www.easycounter.com/">
-<img src="http://www.easycounter.com/counter.php?minerguy31"
-border="0" alt="Free Web Counter"></a>
 <br>
 
 &nbsp;
