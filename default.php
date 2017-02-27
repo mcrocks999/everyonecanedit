@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Everyonecanedit.tk</title>
+		<title>Everyone can edit</title>
 		<style>
 			table td, table td * { vertical-align: top; }
 			.wrapword{
@@ -13,32 +13,39 @@
 				word-break: break-all;
 				white-space: normal;
 			}
+			table { width: 100%; }
+			table.info { height: 100%; }
+			td.left { width: 80%; }
+			td.right { width: 20%; }
+			.header { text-align: center; }
+			h2 { text-align: center; }
+			.border { border: 1px solid black; }
 		</style>
 	</head>
 	<body>
-		<table width=100%>
+		<table>
 			<tr>
-				<td width=80%>
-					<center>
+				<td class="left">
+					<div class="header">
 						<h2>Everyone can edit</h2>
 						Originally made by minerguy31 in 2015, reworked by @mcrocks999<br/>
-						<a href="https://github.com/mcrocks999/everyonecanedit/">Repository</a><br/>
+						<a href="https://github.com/mcrocks999/everyonecanedit/">Forked Repository</a><br/>
 						<a href="http://everyonecanedit.tk/edit.php">Edit</a>&nbsp;
 						<br>
-					</center>
+					</div>
 					<hr>
-					<pre class="wrapword" style="border: 1px solid black;">
+					<pre class="wrapword border">
 						<?php
 							echo stripslashes(strip_tags(file_get_contents('content.html')));
 						?>
 					</pre>
 				</td>
-				<td width=20%>
-					<table border=1px width=100% height=100%>
+				<td class="right">
+					<table class="info border">
 						<tr>
 							<td>
-								<center><h2>Information Board</h2></center>
-								Current version: 0.1.3
+								<h2>Information Board</h2>
+								Current version: 0.1.3.1
 								<li>Refractored code, removed adlinks and view counter.</li>
 							</td>
 						</tr>
