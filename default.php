@@ -30,7 +30,7 @@
 						<h2>Everyone can edit</h2>
 						Originally made by minerguy31 in 2015, reworked by @mcrocks999<br/>
 						<a href="https://github.com/mcrocks999/everyonecanedit/">Forked Repository</a><br/>
-						<a href="http://everyonecanedit.tk/edit.php">Edit</a>&nbsp;
+						<a href="edit.php">Edit</a>&nbsp;
 						<br>
 					</div>
 					<hr>
